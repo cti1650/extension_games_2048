@@ -1,19 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Tailwindcss Extension",
-  "description": "Tailwindcss Extension",
-  "version": "1.1.0",
+  "name": "Extension Games 2048",
+  "description": "Extension Games 2048",
+  "version": "0.0.1",
   "action": {
     "default_popup": "./dist/index.html"
-  },
-  "icons": {
-    "16": "/icons/icon-16x16.png",
-    "48": "/icons/icon-48x48.png",
-    "128": "/icons/icon-128x128.png",
-    "19": "/icons/icon-19x19.png"
-  },
-  "background": {
-    "service_worker": "background.js"
   },
   "permissions": [
     "contextMenus",
@@ -23,7 +14,6 @@
     "activeTab"
   ],
   "host_permissions": [
-    "https://tailwindcss.jp/",
-    "https://tailwindcss.com/"
+    "https://play2048.co/"
   ]
 }
